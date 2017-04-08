@@ -48,10 +48,10 @@ public class UserController {
         return "success" ;
     }
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public String deteleUser(@PathVariable String id) {
+    @RequestMapping(value="/{id}", method=RequestMethod.DELETE)
+    public String deleteUser(@PathVariable Long id) {
         // 处理"/users/{id}"的DELETE请求，用来删除User
-        users.remove(id) ;
-        return "success" ;
+        users.remove(id);
+        return "success";
     }
 }

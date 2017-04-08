@@ -73,7 +73,7 @@ public class SpringbootRestfulApplicationTests {
 		mvc.perform(requestBuilder)
 				.andExpect(content().string(equalTo("success")));
 
-		// 5、get一个id为1的user
+		// 5、get一个id为1000的user
 		requestBuilder = get("/users/");
 		mvc.perform(requestBuilder)
 				.andExpect(status().isOk())
