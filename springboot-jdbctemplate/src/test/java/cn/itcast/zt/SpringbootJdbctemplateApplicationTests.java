@@ -31,7 +31,7 @@ public class SpringbootJdbctemplateApplicationTests {
 		userService.create("徐七",50);
 
 		// 查询数据库应该有5个用户
-		Assert.assertEquals(5, userService.countAllUsers().intValue());
+		Assert.assertEquals(5,  userService.countAllUsers().intValue());
 
 		// 删除两个用户
 		userService.deleteByName("徐七");
