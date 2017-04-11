@@ -19,6 +19,7 @@ public class SpringbootMongodbApplicationTests {
 
 	@Before
 	public void setUp() {
+
 		userRepository.deleteAll();
 	}
 
