@@ -18,8 +18,9 @@ public class SpringbootTransactionApplicationTests {
     @Autowired
     private UserRepository userRepository ;
 
+    // 通过value属性指定使用的事务管理器
     @Test
-    @Transactional(rollbackFor = Exception.class, noRollbackFor = RuntimeException.class)
+    @Transactional(rollbackFor = Exception.class, noRollbackFor = RuntimeException.class,value = "transactionManager")
     @Commit
     public void testTransaction() {
         // 创建10条记录
