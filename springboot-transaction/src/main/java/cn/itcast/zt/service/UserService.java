@@ -9,6 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
  * Created by zhangtian on 2017/4/12.
  */
 public interface UserService {
-    @Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED)
+    @Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED, readOnly=true)
     User login(String name, String password) ;
 }

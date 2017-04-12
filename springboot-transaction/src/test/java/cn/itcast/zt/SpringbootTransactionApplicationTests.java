@@ -19,7 +19,7 @@ public class SpringbootTransactionApplicationTests {
     private UserRepository userRepository ;
 
     @Test
-    @Transactional
+    @Transactional(rollbackFor = Exception.class, noRollbackFor = RuntimeException.class)
     @Commit
     public void testTransaction() {
         // 创建10条记录
