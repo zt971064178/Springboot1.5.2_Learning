@@ -1,0 +1,10 @@
+2017-04-12 16:39:58,288  INFO SpringbootLog4jSimpleApplicationTests:48 ---- Starting SpringbootLog4jSimpleApplicationTests on DESKTOP-JF9M0VD with PID 5424 (started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-log4j-simple)
+2017-04-12 16:39:58,289  INFO SpringbootLog4jSimpleApplicationTests:641 ---- The following profiles are active: dev
+2017-04-12 16:39:59,814  INFO SpringbootLog4jSimpleApplicationTests:57 ---- Started SpringbootLog4jSimpleApplicationTests in 2.299 seconds (JVM running for 3.775)
+2017-04-12 16:39:59,855  INFO SpringbootLog4jSimpleApplicationTests:16 ---- 输出info
+2017-04-12 16:39:59,856 ERROR SpringbootLog4jSimpleApplicationTests:18 ---- 输出error
+2017-04-12 16:40:14,966  INFO SpringbootLog4jSimpleApplicationTests:48 ---- Starting SpringbootLog4jSimpleApplicationTests on DESKTOP-JF9M0VD with PID 10884 (started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-log4j-simple)
+2017-04-12 16:40:14,969  INFO SpringbootLog4jSimpleApplicationTests:641 ---- The following profiles are active: test
+2017-04-12 16:40:16,855  INFO SpringbootLog4jSimpleApplicationTests:57 ---- Started SpringbootLog4jSimpleApplicationTests in 2.758 seconds (JVM running for 4.148)
+2017-04-12 16:40:16,911  INFO SpringbootLog4jSimpleApplicationTests:16 ---- 输出info
+2017-04-12 16:40:16,912 ERROR SpringbootLog4jSimpleApplicationTests:18 ---- 输出error
