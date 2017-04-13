@@ -1,0 +1,28 @@
+[INFO ] 2017-04-13 21:12:40,883 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Starting SpringbootFormRepeatcommitApplication on DESKTOP-JF9M0VD with PID 11428 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-form-repeatcommit\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-13 21:12:40,887 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-13 21:12:40,887 cn.itcast.zt.SpringbootFormRepeatcommitApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-13 21:12:44,935 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Started SpringbootFormRepeatcommitApplication in 4.563 seconds (JVM running for 7.853)
+[INFO ] 2017-04-13 21:14:57,561 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Starting SpringbootFormRepeatcommitApplication on DESKTOP-JF9M0VD with PID 2244 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-form-repeatcommit\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-13 21:14:57,565 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-13 21:14:57,566 cn.itcast.zt.SpringbootFormRepeatcommitApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-13 21:17:51,499 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Starting SpringbootFormRepeatcommitApplication on DESKTOP-JF9M0VD with PID 8136 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-form-repeatcommit\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-13 21:17:51,504 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-13 21:17:51,504 cn.itcast.zt.SpringbootFormRepeatcommitApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-13 21:17:55,555 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Started SpringbootFormRepeatcommitApplication in 4.591 seconds (JVM running for 7.236)
+[DEBUG] 2017-04-13 21:19:17,901 cn.itcast.zt.aop.TokenContract - 进入表单页面，Token值为：1b39c3fc-d0ba-4bb2-8526-48a35b124577
+[DEBUG] 2017-04-13 21:20:40,607 cn.itcast.zt.aop.TokenContract - 进入表单页面，Token值为：7d691f90-77f5-4e0e-b153-e299843907d0
+[ERROR] 2017-04-13 21:22:36,378 cn.itcast.zt.aop.TokenContract - 表单重复提交
+[INFO ] 2017-04-13 21:23:15,882 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Starting SpringbootFormRepeatcommitApplication on DESKTOP-JF9M0VD with PID 6764 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-form-repeatcommit\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-13 21:23:15,886 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-13 21:23:15,886 cn.itcast.zt.SpringbootFormRepeatcommitApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-13 21:23:19,894 cn.itcast.zt.SpringbootFormRepeatcommitApplication - Started SpringbootFormRepeatcommitApplication in 4.594 seconds (JVM running for 7.586)
+[DEBUG] 2017-04-13 21:23:36,632 cn.itcast.zt.aop.TokenContract - 进入表单页面，Token值为：7b55ba92-b802-4979-ab66-2eef0c3a9399
+[ERROR] 2017-04-13 21:24:33,945 cn.itcast.zt.aop.TokenContract - 表单重复提交
+[INFO ] 2017-04-13 21:48:14,699 cn.itcast.zt.SpringbootSecondRefreshApplication - Starting SpringbootSecondRefreshApplication on DESKTOP-JF9M0VD with PID 10440 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-second-refresh\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-13 21:48:14,703 cn.itcast.zt.SpringbootSecondRefreshApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-13 21:48:14,704 cn.itcast.zt.SpringbootSecondRefreshApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-13 21:48:18,325 cn.itcast.zt.SpringbootSecondRefreshApplication - Started SpringbootSecondRefreshApplication in 3.833 seconds (JVM running for 6.823)
+[INFO ] 2017-04-13 21:48:52,120 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-13 21:48:59,647 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-13 21:49:00,216 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-13 21:49:00,639 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]

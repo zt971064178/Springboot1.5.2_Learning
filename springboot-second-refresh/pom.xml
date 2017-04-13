@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.itcast.zt</groupId>
-	<artifactId>springboot-form-repeatcommit</artifactId>
+	<artifactId>springboot-second-refresh</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-form-repeatcommit</name>
-	<description>Springboot注解+拦截器解决表单重复提交</description>
+	<name>springboot-second-refresh</name>
+	<description>springboot使用注解加拦截器防止秒刷</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
