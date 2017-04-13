@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ehcache>
     <!--
         磁盘存储:将缓存中暂时不使用的对象,转移到硬盘,类似于Windows系统的虚拟内存

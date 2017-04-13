@@ -1,13 +1,12 @@
 package cn.itcast.zt;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -17,18 +16,17 @@ import java.io.File;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringbootJavamailApplication.class)
 public class SpringbootJavamailApplicationTests {
+	/*
+	参考文章:http://blog.csdn.net/u011244202/article/details/54809696
+	 */
+	@Autowired
 	private JavaMailSender mailSender ;
-
-	@Before
-	public void setUp(){
-		mailSender = new JavaMailSenderImpl() ;
-	}
 
 	@Test
 	public void sendSimpleMail() {
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setFrom("971064178@qq.com");
-		message.setTo("1402574973@qq.com");
+		message.setFrom("zhang.tian20080808@163.com");
+		message.setTo("zhang.tian20080808@163.com");
 		message.setSubject("主题：简单邮件");
 		message.setText("测试邮件内容");
 
