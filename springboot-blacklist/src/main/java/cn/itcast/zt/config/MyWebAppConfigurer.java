@@ -4,7 +4,6 @@ import cn.itcast.zt.aop.URLInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
@@ -13,7 +12,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * Created by zhangtian on 2017/4/14.
  */
 @Configuration
-@EnableWebMvc
 public class MyWebAppConfigurer extends WebMvcConfigurerAdapter {
     @Bean   //把我们的拦截器注入为bean
     public HandlerInterceptor getMyInterceptor(){

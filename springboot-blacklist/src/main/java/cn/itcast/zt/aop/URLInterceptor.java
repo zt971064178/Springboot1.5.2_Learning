@@ -7,11 +7,11 @@ import cn.itcast.zt.utils.IPAddressUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.PrintWriter;
 import java.util.*;
 
 /**
@@ -26,13 +26,17 @@ public class URLInterceptor extends HandlerInterceptorAdapter {
     private static final Logger logger = LoggerFactory.getLogger(URLInterceptor.class);
 
     @Override
-    public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
+    public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         String ip = IPAddressUtils.getClientIpAddress(httpServletRequest) ;
         List<BlackList> baBlackLists = blackListDao.findByIP(ip) ;
         if(baBlackLists == null || baBlackLists.isEmpty()) {
             urlHandle(httpServletRequest, 5000, 10);
+            return true;
         }else {
-            //modelAndView.setViewName("/errorpage/error.html");
+            httpServletResponse.setCharacterEncoding("UTF-8");
+            PrintWriter out = httpServletResponse.getWriter() ;
+            out.print("您已经被列入黑名单中，请及时和管理员联系，解除黑名单限制");
+            return false ;
         }
     }
 
