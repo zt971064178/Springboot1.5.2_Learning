@@ -13,7 +13,7 @@ public class SpringootStatemachineApplication implements CommandLineRunner {
 		SpringApplication.run(SpringootStatemachineApplication.class, args);
 	}
 
-	@Autowired
+	@Autowired(required = false)
 	private StateMachine<States, Events> stateMachine ;
 
 	@Override
