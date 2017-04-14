@@ -735,3 +735,96 @@
 [DEBUG] 2017-04-14 14:07:47,162 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
 [DEBUG] 2017-04-14 14:07:47,163 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
 [DEBUG] 2017-04-14 14:07:47,165 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[INFO ] 2017-04-14 14:08:15,737 cn.itcast.zt.SpringbootBlacklistApplication - Starting SpringbootBlacklistApplication on DESKTOP-JF9M0VD with PID 6192 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-blacklist\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-14 14:08:15,743 cn.itcast.zt.SpringbootBlacklistApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-14 14:08:15,743 cn.itcast.zt.SpringbootBlacklistApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-14 14:08:19,814 cn.itcast.zt.SpringbootBlacklistApplication - Started SpringbootBlacklistApplication in 4.614 seconds (JVM running for 7.183)
+[DEBUG] 2017-04-14 14:08:38,566 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:38,656 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:38,675 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:40,270 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:40,271 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:40,276 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:41,240 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:41,241 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:41,242 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,138 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,139 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,142 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,295 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,295 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,296 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,403 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,403 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,404 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,544 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,545 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,547 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,683 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,683 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,684 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,786 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,786 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,788 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,880 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,880 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,882 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:43,971 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:43,971 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:43,973 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,059 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,060 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,061 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,137 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,137 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,138 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,227 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,227 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,229 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,313 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,314 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,315 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,395 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,397 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,400 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,492 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,493 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,494 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,576 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,576 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,577 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0
+[DEBUG] 2017-04-14 14:08:44,579 cn.itcast.zt.dao.BlackListDao.addBlackList - ==>  Preparing: INSERT INTO blacklist(ip, iptime) VALUES (?, ?) 
+[DEBUG] 2017-04-14 14:08:44,590 cn.itcast.zt.dao.BlackListDao.addBlackList - ==> Parameters: 127.0.0.1(String), 2017-04-14 14:08:44.578(Timestamp)
+[DEBUG] 2017-04-14 14:08:44,622 cn.itcast.zt.dao.BlackListDao.addBlackList - <==    Updates: 1
+[DEBUG] 2017-04-14 14:08:44,666 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,666 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,672 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[DEBUG] 2017-04-14 14:08:44,746 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,746 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,748 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[DEBUG] 2017-04-14 14:08:44,850 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,850 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,852 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[DEBUG] 2017-04-14 14:08:44,946 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:44,946 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:44,948 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[DEBUG] 2017-04-14 14:08:45,041 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:45,041 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:45,043 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[DEBUG] 2017-04-14 14:08:45,113 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:08:45,113 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:08:45,115 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[INFO ] 2017-04-14 14:25:13,671 cn.itcast.zt.SpringbootBlacklistApplication - Starting SpringbootBlacklistApplication on DESKTOP-JF9M0VD with PID 3244 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-blacklist\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-14 14:25:13,675 cn.itcast.zt.SpringbootBlacklistApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-14 14:25:13,675 cn.itcast.zt.SpringbootBlacklistApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-14 14:25:17,940 cn.itcast.zt.SpringbootBlacklistApplication - Started SpringbootBlacklistApplication in 4.569 seconds (JVM running for 7.156)
+[INFO ] 2017-04-14 14:28:01,752 cn.itcast.zt.SpringbootBlacklistApplication - Starting SpringbootBlacklistApplication on DESKTOP-JF9M0VD with PID 5100 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-blacklist\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-14 14:28:01,756 cn.itcast.zt.SpringbootBlacklistApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-14 14:28:01,756 cn.itcast.zt.SpringbootBlacklistApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-14 14:28:05,978 cn.itcast.zt.SpringbootBlacklistApplication - Started SpringbootBlacklistApplication in 4.626 seconds (JVM running for 7.564)
+[DEBUG] 2017-04-14 14:28:53,054 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:28:53,159 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:28:53,185 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
+[DEBUG] 2017-04-14 14:30:05,883 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-04-14 14:30:05,884 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-04-14 14:30:05,886 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 0

@@ -6,6 +6,7 @@ import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 
 /**
+ * 直接URL访问jdbc监控台
  * Created by zhangtian on 2017/4/14.
  */
 @WebServlet(urlPatterns="/druid/*",
