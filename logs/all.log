@@ -1,0 +1,21 @@
+2017-04-17 17:23:09,410  INFO SpringbootLog4jSimpleApplication:48 - Starting SpringbootLog4jSimpleApplication on DESKTOP-JF9M0VD with PID 7604 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-log4j-simple\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+2017-04-17 17:23:09,414  INFO SpringbootLog4jSimpleApplication:641 - The following profiles are active: dev
+2017-04-17 17:23:09,469  INFO AnnotationConfigApplicationContext:582 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cef309d: startup date [Mon Apr 17 17:23:09 CST 2017]; root of context hierarchy
+2017-04-17 17:23:10,720  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-04-17 17:23:10,742  INFO SpringbootLog4jSimpleApplication:57 - Started SpringbootLog4jSimpleApplication in 1.594 seconds (JVM running for 2.402)
+2017-04-17 17:23:10,786  INFO AnnotationConfigApplicationContext:987 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cef309d: startup date [Mon Apr 17 17:23:09 CST 2017]; root of context hierarchy
+2017-04-17 17:23:10,787  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-04-17 17:23:40,328  INFO SpringbootLog4jSimpleApplication:48 - Starting SpringbootLog4jSimpleApplication on DESKTOP-JF9M0VD with PID 17172 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-log4j-simple\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+2017-04-17 17:23:40,332  INFO SpringbootLog4jSimpleApplication:641 - The following profiles are active: test
+2017-04-17 17:23:40,383  INFO AnnotationConfigApplicationContext:582 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cef309d: startup date [Mon Apr 17 17:23:40 CST 2017]; root of context hierarchy
+2017-04-17 17:23:41,372  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-04-17 17:23:41,416  INFO SpringbootLog4jSimpleApplication:57 - Started SpringbootLog4jSimpleApplication in 1.417 seconds (JVM running for 1.876)
+2017-04-17 17:23:41,427  INFO AnnotationConfigApplicationContext:987 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cef309d: startup date [Mon Apr 17 17:23:40 CST 2017]; root of context hierarchy
+2017-04-17 17:23:41,429  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-04-17 17:25:18,782  INFO SpringbootLog4jSimpleApplication:48 - Starting SpringbootLog4jSimpleApplication on DESKTOP-JF9M0VD with PID 14764 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-log4j-simple\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+2017-04-17 17:25:18,785  INFO SpringbootLog4jSimpleApplication:641 - The following profiles are active: dev
+2017-04-17 17:25:18,855  INFO AnnotationConfigApplicationContext:582 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c6f217: startup date [Mon Apr 17 17:25:18 CST 2017]; root of context hierarchy
+2017-04-17 17:25:20,254  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-04-17 17:25:20,269  INFO SpringbootLog4jSimpleApplication:57 - Started SpringbootLog4jSimpleApplication in 1.79 seconds (JVM running for 2.537)
+2017-04-17 17:25:20,271  INFO AnnotationConfigApplicationContext:987 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c6f217: startup date [Mon Apr 17 17:25:18 CST 2017]; root of context hierarchy
+2017-04-17 17:25:20,273  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
