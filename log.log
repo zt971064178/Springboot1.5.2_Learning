@@ -1148,3 +1148,98 @@
 [DEBUG] 2017-04-18 13:54:18,294 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
 [INFO ] 2017-04-18 13:54:18,296 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
 [INFO ] 2017-04-18 13:54:26,926 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 9.136 seconds (JVM running for 12.592)
+[INFO ] 2017-04-18 14:53:44,240 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 4000 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 14:53:44,250 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 14:53:44,250 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 14:53:52,233 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 8.57 seconds (JVM running for 12.103)
+[INFO ] 2017-04-18 14:56:10,856 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 652 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 14:56:10,867 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 14:56:10,868 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 14:56:19,412 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 9.203 seconds (JVM running for 12.673)
+[INFO ] 2017-04-18 14:57:39,786 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 10224 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 14:57:39,796 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 14:57:39,797 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 14:57:47,689 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 8.376 seconds (JVM running for 11.766)
+[INFO ] 2017-04-18 15:00:07,689 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 2208 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:00:07,703 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:00:07,705 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:00:15,555 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 8.455 seconds (JVM running for 11.507)
+[INFO ] 2017-04-18 15:00:59,117 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 2208 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:00:59,118 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:00:59,118 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:01:02,284 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 3.467 seconds (JVM running for 58.236)
+[INFO ] 2017-04-18 15:01:06,379 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 4584 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:01:06,385 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:01:06,386 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:01:31,250 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 8924 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:01:31,257 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:01:31,258 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:01:38,969 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 8.24 seconds (JVM running for 11.243)
+[INFO ] 2017-04-18 15:05:35,678 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 9304 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:05:35,685 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:05:35,686 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:05:43,417 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 8.264 seconds (JVM running for 11.378)
+[DEBUG] 2017-04-18 15:05:52,589 cn.itcast.zt.dao.UserDao.save - ==>  Preparing: INSERT INTO rusers(name, age, uuid) VALUES (?, ?, ?) 
+[DEBUG] 2017-04-18 15:05:52,630 cn.itcast.zt.dao.UserDao.save - ==> Parameters: 张三(String), 20(Integer), a7c59633b4fd4ad0af06d08f60951c48(String)
+[DEBUG] 2017-04-18 15:05:52,651 cn.itcast.zt.dao.UserDao.save - <==    Updates: 1
+[DEBUG] 2017-04-18 15:05:52,786 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:05:52,786 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: a7c59633b4fd4ad0af06d08f60951c48(String)
+[DEBUG] 2017-04-18 15:05:52,804 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:05:52,983 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:05:52,984 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: a7c59633b4fd4ad0af06d08f60951c48(String)
+[DEBUG] 2017-04-18 15:05:52,986 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:05:52,987 cn.itcast.zt.dao.UserDao.update - ==>  Preparing: UPDATE rusers SET name=?, age=? WHERE uuid=? 
+[DEBUG] 2017-04-18 15:05:52,987 cn.itcast.zt.dao.UserDao.update - ==> Parameters: 李四(String), 18(Integer), a7c59633b4fd4ad0af06d08f60951c48(String)
+[DEBUG] 2017-04-18 15:05:53,009 cn.itcast.zt.dao.UserDao.update - <==    Updates: 1
+[DEBUG] 2017-04-18 15:06:45,111 cn.itcast.zt.dao.UserDao.save - ==>  Preparing: INSERT INTO rusers(name, age, uuid) VALUES (?, ?, ?) 
+[DEBUG] 2017-04-18 15:06:45,112 cn.itcast.zt.dao.UserDao.save - ==> Parameters: 张三(String), 20(Integer), 701dcc7fdaaa46f99e2bd842703eedbc(String)
+[DEBUG] 2017-04-18 15:06:45,134 cn.itcast.zt.dao.UserDao.save - <==    Updates: 1
+[DEBUG] 2017-04-18 15:06:45,136 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:06:45,136 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: 701dcc7fdaaa46f99e2bd842703eedbc(String)
+[DEBUG] 2017-04-18 15:06:45,137 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:06:45,140 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:06:45,141 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: 701dcc7fdaaa46f99e2bd842703eedbc(String)
+[DEBUG] 2017-04-18 15:06:45,142 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:06:45,143 cn.itcast.zt.dao.UserDao.update - ==>  Preparing: UPDATE rusers SET name=?, age=? WHERE uuid=? 
+[DEBUG] 2017-04-18 15:06:45,143 cn.itcast.zt.dao.UserDao.update - ==> Parameters: 李四(String), 18(Integer), 701dcc7fdaaa46f99e2bd842703eedbc(String)
+[DEBUG] 2017-04-18 15:06:45,167 cn.itcast.zt.dao.UserDao.update - <==    Updates: 1
+[INFO ] 2017-04-18 15:08:03,135 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 988 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:08:03,142 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:08:03,143 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:08:11,480 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 8.878 seconds (JVM running for 12.504)
+[DEBUG] 2017-04-18 15:08:14,638 cn.itcast.zt.dao.UserDao.save - ==>  Preparing: INSERT INTO rusers(name, age, uuid) VALUES (?, ?, ?) 
+[DEBUG] 2017-04-18 15:08:14,678 cn.itcast.zt.dao.UserDao.save - ==> Parameters: 张三(String), 20(Integer), 077bf64a0dac4bebbd77cb9e6de20720(String)
+[DEBUG] 2017-04-18 15:08:14,699 cn.itcast.zt.dao.UserDao.save - <==    Updates: 1
+[DEBUG] 2017-04-18 15:08:14,832 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:08:14,832 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: 077bf64a0dac4bebbd77cb9e6de20720(String)
+[DEBUG] 2017-04-18 15:08:14,852 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:08:15,055 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:08:15,056 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: 077bf64a0dac4bebbd77cb9e6de20720(String)
+[DEBUG] 2017-04-18 15:08:15,057 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:08:15,058 cn.itcast.zt.dao.UserDao.update - ==>  Preparing: UPDATE rusers SET name=?, age=? WHERE uuid=? 
+[DEBUG] 2017-04-18 15:08:15,059 cn.itcast.zt.dao.UserDao.update - ==> Parameters: 李四(String), 18(Integer), 077bf64a0dac4bebbd77cb9e6de20720(String)
+[DEBUG] 2017-04-18 15:08:15,082 cn.itcast.zt.dao.UserDao.update - <==    Updates: 1
+[INFO ] 2017-04-18 15:12:12,601 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 6752 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:12:12,609 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:12:12,609 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:12:21,227 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 9.174 seconds (JVM running for 12.689)
+[DEBUG] 2017-04-18 15:12:55,907 cn.itcast.zt.dao.UserDao.save - ==>  Preparing: INSERT INTO rusers(name, age, uuid) VALUES (?, ?, ?) 
+[DEBUG] 2017-04-18 15:12:55,971 cn.itcast.zt.dao.UserDao.save - ==> Parameters: 张三(String), 20(Integer), 1e0e78f1f791427396203b24196d8f9a(String)
+[DEBUG] 2017-04-18 15:12:55,996 cn.itcast.zt.dao.UserDao.save - <==    Updates: 1
+[DEBUG] 2017-04-18 15:12:56,090 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:12:56,090 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: 1e0e78f1f791427396203b24196d8f9a(String)
+[DEBUG] 2017-04-18 15:12:56,111 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:12:56,285 cn.itcast.zt.dao.UserDao.findByUuid - ==>  Preparing: SELECT * FROM rusers WHERE uuid = ? 
+[DEBUG] 2017-04-18 15:12:56,286 cn.itcast.zt.dao.UserDao.findByUuid - ==> Parameters: 1e0e78f1f791427396203b24196d8f9a(String)
+[DEBUG] 2017-04-18 15:12:56,287 cn.itcast.zt.dao.UserDao.findByUuid - <==      Total: 1
+[DEBUG] 2017-04-18 15:12:56,288 cn.itcast.zt.dao.UserDao.update - ==>  Preparing: UPDATE rusers SET name=?, age=? WHERE uuid=? 
+[DEBUG] 2017-04-18 15:12:56,288 cn.itcast.zt.dao.UserDao.update - ==> Parameters: 李四(String), 18(Integer), 1e0e78f1f791427396203b24196d8f9a(String)
+[DEBUG] 2017-04-18 15:12:56,312 cn.itcast.zt.dao.UserDao.update - <==    Updates: 1
+[INFO ] 2017-04-18 15:16:51,924 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 5392 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:16:51,931 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:16:51,931 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:17:00,601 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 9.208 seconds (JVM running for 12.343)
+[INFO ] 2017-04-18 15:19:30,614 cn.itcast.zt.SpringbootRedissessionApplication - Starting SpringbootRedissessionApplication on DESKTOP-JF9M0VD with PID 2224 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-redissession\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 15:19:30,620 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 15:19:30,620 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 15:19:39,148 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 9.126 seconds (JVM running for 12.327)

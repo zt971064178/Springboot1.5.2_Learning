@@ -29,7 +29,7 @@ public class RedisController {
     @Autowired
     private RedisTemplate redisTemplate ;
 
-    @Autowired
+    @Autowired(required = false)
     private CacheManager cacheManager ;
 
     @Value("${server.port}")
@@ -61,7 +61,11 @@ public class RedisController {
     public String optCacheManager() {
         Collection<String> collections = cacheManager.getCacheNames() ;
         System.out.println(collections);
-        return null ;
+        System.out.println(cacheManager.getCache("users"));
+        cacheManager.getCache("users").put("fengyun", "tech") ;
+        System.out.println(cacheManager.getCache("users").getName());
+        System.out.println(cacheManager.getCache("users").get("fengyun",String.class)) ;
+        return cacheManager.getCache("users").get("fengyun", String.class) ;
     }
 
     @RequestMapping(value = "/redis", method = RequestMethod.GET)
