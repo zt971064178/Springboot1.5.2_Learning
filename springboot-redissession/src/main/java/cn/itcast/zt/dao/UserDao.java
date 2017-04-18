@@ -14,9 +14,9 @@ import org.springframework.stereotype.Repository;
 public interface UserDao {
     void delete(String uuid);
 
-    int update(@Param("ruser") User user);
+    int update(@Param(value = "ruser") User user);
 
     User findByUuid(String uuid);
 
-    int save(@Param("ruser") User user) throws Exception;
+    int save(@Param(value = "ruser") User user) throws Exception;
 }

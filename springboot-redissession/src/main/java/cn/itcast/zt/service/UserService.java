@@ -12,18 +12,19 @@ import org.springframework.stereotype.Service;
 /**
  * Created by zhangtian on 2017/4/14.
  */
-@Cacheable(cacheNames = "users")
+@Cacheable(cacheNames = "users"/*, keyGenerator = "wiselyKeyGenerator"*/)
 @Service
 public class UserService {
     @Autowired
     private UserDao userDao;
 
-    @CacheEvict(key="'user'")
+    @CacheEvict(key="'user'", beforeInvocation = false, allEntries = false/*, keyGenerator = "wiselyKeyGenerator"*/)
     public int save(User user) throws Exception {
+        System.out.println("================");
         return userDao.save(user);
     }
 
-    @CachePut(key = "'user_'+#user.getUuid()")
+    @CachePut(key = "'user_'+#user.getUuid()"/*, keyGenerator = "wiselyKeyGenerator"*/)
     public User update(User user) throws CacheException{
         User user1 = userDao.findByUuid(user.getUuid());
         if (null == user1){
@@ -35,13 +36,13 @@ public class UserService {
         return user1;
     }
 
-    @Cacheable(key="'user_'+#uuid")
+    @Cacheable(key="'user_'+#uuid"/*, keyGenerator = "wiselyKeyGenerator"*/)
     public User findByUuid(String uuid){
         System.err.println("没有走缓存！"+uuid);
         return userDao.findByUuid(uuid);
     }
 
-    @CacheEvict(key = "'user_'+#uuid")//这是清除缓存
+   @CacheEvict(key = "'user_'+#uuid", allEntries = false, beforeInvocation = false/*, keyGenerator = "wiselyKeyGenerator"*/)//这是清除缓存
     public void delete(String uuid){
         userDao.delete(uuid);
     }

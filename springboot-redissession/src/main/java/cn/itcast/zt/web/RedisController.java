@@ -4,11 +4,15 @@ import cn.itcast.zt.model.User;
 import cn.itcast.zt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.CacheManager;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -17,9 +21,16 @@ import java.util.UUID;
  * Created by zhangtian on 2017/4/14.
  */
 @RestController
+@RequestMapping("/")
 public class RedisController {
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private RedisTemplate redisTemplate ;
+
+    @Autowired
+    private CacheManager cacheManager ;
 
     @Value("${server.port}")
     String port;
@@ -30,6 +41,27 @@ public class RedisController {
         map.put("SessionId", request.getSession().getId());
         map.put("ServerPort", "服务端口号为 "+port);
         return map;
+    }
+
+    /**
+     * 测试redis连接
+     * @return
+     */
+    @GetMapping(value = "/optRedis")
+    public String optRedis() {
+        redisTemplate.opsForValue().set("book", "天局");
+        return redisTemplate.opsForValue().get("book").toString() ;
+    }
+
+    /**
+     * 测试Spring的CacheManager
+     * @return
+     */
+    @GetMapping(value = "/optCacheManager")
+    public String optCacheManager() {
+        Collection<String> collections = cacheManager.getCacheNames() ;
+        System.out.println(collections);
+        return null ;
     }
 
     @RequestMapping(value = "/redis", method = RequestMethod.GET)
@@ -47,6 +79,7 @@ public class RedisController {
         try {
             userService.save(user);
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("保存用户出现异常");
         }
 
