@@ -1243,3 +1243,18 @@
 [DEBUG] 2017-04-18 15:19:30,620 cn.itcast.zt.SpringbootRedissessionApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
 [INFO ] 2017-04-18 15:19:30,620 cn.itcast.zt.SpringbootRedissessionApplication - No active profile set, falling back to default profiles: default
 [INFO ] 2017-04-18 15:19:39,148 cn.itcast.zt.SpringbootRedissessionApplication - Started SpringbootRedissessionApplication in 9.126 seconds (JVM running for 12.327)
+[INFO ] 2017-04-18 16:21:17,339 cn.itcast.zt.SpringbootSecondRefreshApplication - Starting SpringbootSecondRefreshApplication on DESKTOP-JF9M0VD with PID 4988 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-second-refresh\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 16:21:17,342 cn.itcast.zt.SpringbootSecondRefreshApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 16:21:17,343 cn.itcast.zt.SpringbootSecondRefreshApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 16:25:14,218 cn.itcast.zt.SpringbootSecondRefreshApplication - Starting SpringbootSecondRefreshApplication on DESKTOP-JF9M0VD with PID 3476 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-second-refresh\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 16:25:14,224 cn.itcast.zt.SpringbootSecondRefreshApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 16:25:14,225 cn.itcast.zt.SpringbootSecondRefreshApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-04-18 16:25:18,632 cn.itcast.zt.SpringbootSecondRefreshApplication - Started SpringbootSecondRefreshApplication in 4.804 seconds (JVM running for 7.883)
+[INFO ] 2017-04-18 16:26:06,519 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-18 16:26:32,458 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-18 16:26:32,911 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-18 16:26:33,855 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-18 16:26:59,703 cn.itcast.zt.aop.RequestLimitContract - 用户IP[127.0.0.1]访问地址[http://127.0.0.1:8080/hello]超过了限定的次数[10]
+[INFO ] 2017-04-18 16:53:13,141 cn.itcast.zt.SpringbootSecondRefreshApplication - Starting SpringbootSecondRefreshApplication on DESKTOP-JF9M0VD with PID 5672 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-second-refresh\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-04-18 16:53:13,146 cn.itcast.zt.SpringbootSecondRefreshApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-04-18 16:53:13,147 cn.itcast.zt.SpringbootSecondRefreshApplication - No active profile set, falling back to default profiles: default
