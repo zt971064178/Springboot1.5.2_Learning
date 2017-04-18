@@ -20,7 +20,7 @@ import java.util.Map;
 @Transactional
 public class SpringbootMybatisComplexApplicationTests {
 
-	@Autowired
+	@Autowired(required = false)
 	private UserMapper userMapper ;
 
 	@Test
