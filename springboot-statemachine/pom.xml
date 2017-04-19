@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springoot-statemachine</name>
+	<name>springboot-statemachine</name>
 	<description>Springboot状态机</description>
 
 	<parent>
