@@ -1,7 +1,6 @@
 package cn.itcast.zt.domain;
 
 import org.apache.ibatis.annotations.*;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
@@ -10,7 +9,6 @@ import java.util.Map;
  * Created by zhangtian on 2017/4/12.
  */
 @Mapper
-@Component
 public interface UserMapper {
     @Select("SELECT * FROM USER WHERE NAME = #{name}")
     User findByName(@Param("name") String name) ;

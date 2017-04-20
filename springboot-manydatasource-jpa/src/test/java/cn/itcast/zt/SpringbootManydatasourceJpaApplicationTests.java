@@ -17,6 +17,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SpringbootManydatasourceJpaApplicationTests {
 	@Autowired
 	private UserRepository userRepository ;
+	/* 注入em对象，通过name区分双数据源
+	@Autowired
+	@Qualifier(value = "entityManagerPrimary")
+	private EntityManager entityManager1 ;
+
+	@Autowired
+	@Qualifier(value = "entityManagerSecondary")
+	private EntityManager entityManager2 ;*/
 
 	@Autowired
 	private MessageRepository messageRepository ;

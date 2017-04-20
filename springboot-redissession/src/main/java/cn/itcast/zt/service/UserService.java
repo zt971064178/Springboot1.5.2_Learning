@@ -10,20 +10,23 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 /**
+ * Redis缓存测试：注意没有缓存注解都需要指定cacheNames，否则报错
+ * key与keyGenerator冲突，key生成策略只能有一个
  * Created by zhangtian on 2017/4/14.
  */
-@Cacheable(cacheNames = "users")
+@Cacheable(cacheNames = "users"/*, keyGenerator = "wiselyKeyGenerator"*/)
 @Service
 public class UserService {
     @Autowired
     private UserDao userDao;
-
-    @CacheEvict(key="'user'")
+    // key与keyGenerator冲突，key生成策略只能有一个
+    @CacheEvict(cacheNames ="users" /*,key="'user'"*/, beforeInvocation = false, allEntries = false, keyGenerator = "wiselyKeyGenerator")
     public int save(User user) throws Exception {
+        System.out.println("================");
         return userDao.save(user);
     }
 
-    @CachePut(key = "'user_'+#user.getUuid()")
+    @CachePut(cacheNames ="users" /*,key = "'user_'+#user.getUuid()"*/, keyGenerator = "wiselyKeyGenerator")
     public User update(User user) throws CacheException{
         User user1 = userDao.findByUuid(user.getUuid());
         if (null == user1){
@@ -35,13 +38,13 @@ public class UserService {
         return user1;
     }
 
-    @Cacheable(key="'user_'+#uuid")
+    @Cacheable(cacheNames ="users" /*,key="'user_'+#uuid"*/, keyGenerator = "wiselyKeyGenerator")
     public User findByUuid(String uuid){
         System.err.println("没有走缓存！"+uuid);
         return userDao.findByUuid(uuid);
     }
 
-    @CacheEvict(key = "'user_'+#uuid")//这是清除缓存
+   @CacheEvict(cacheNames ="users" /*,key = "'user_'+#uuid"*/, allEntries = false, beforeInvocation = false, keyGenerator = "wiselyKeyGenerator")//这是清除缓存
     public void delete(String uuid){
         userDao.delete(uuid);
     }

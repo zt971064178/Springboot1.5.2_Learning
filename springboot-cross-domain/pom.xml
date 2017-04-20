@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.itcast.zt</groupId>
-	<artifactId>springoot-statemachine</artifactId>
+	<artifactId>springboot-cross-domain</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springoot-statemachine</name>
-	<description>Springboot状态机</description>
+	<name>springboot-cross-domain</name>
+	<description>Springboot解决跨域问题</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -31,9 +31,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.statemachine</groupId>
-			<artifactId>spring-statemachine-core</artifactId>
-			<version>1.2.3.RELEASE</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>

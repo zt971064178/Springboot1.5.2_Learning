@@ -3,10 +3,11 @@ package cn.itcast.zt.config;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.cache.interceptor.CacheResolver;
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,14 +24,15 @@ import java.lang.reflect.Method;
  * Created by zhangtian on 2017/4/14.
  */
 @Configuration
-@EnableCaching
 public class RedisConfig extends CachingConfigurerSupport{
-    @Value("${spring.redis.host}")
+    /*@Value("${spring.redis.host}")
     private String host;
     @Value("${spring.redis.port}")
     private int port;
     @Value("${spring.redis.timeout}")
-    private int timeout;
+    private int timeout;*/
+    @Autowired
+    private JedisConnectionFactory factory ;
 
     /**
      * 获取唯一键值：通过className、methodName、参数拼接
@@ -43,7 +45,7 @@ public class RedisConfig extends CachingConfigurerSupport{
             public Object generate(Object o, Method method, Object... objects) {
                 StringBuilder sb = new StringBuilder();
                 sb.append(o.getClass().getName());
-                sb.append(method.getName());
+                sb.append("::" + method.getName() + ":");
                 for (Object obj : objects){
                     sb.append(obj.toString());
                 }
@@ -56,14 +58,14 @@ public class RedisConfig extends CachingConfigurerSupport{
      * 注册JedisConnectionFactory
      * @return
      */
-    @Bean
+   /* @Bean
     public JedisConnectionFactory redisConnectionFactory(){
         JedisConnectionFactory factory = new JedisConnectionFactory();
         factory.setHostName(host);
         factory.setPort(port);
         factory.setTimeout(timeout);    //设置连接超时
         return factory;
-    }
+    }*/
 
     /**
      * 获取RedisTemplate
@@ -71,7 +73,7 @@ public class RedisConfig extends CachingConfigurerSupport{
      * @return
      */
     @Bean
-    public RedisTemplate<String, String> redisTemplate(RedisConnectionFactory factory){
+    public RedisTemplate<String, String> redisTemplate(/*RedisConnectionFactory factory*/){
         StringRedisTemplate template = new StringRedisTemplate(factory);
         setSerializer(template);    //设置序列化工具，就不必实现Serializable接口
         template.afterPropertiesSet();
@@ -86,7 +88,7 @@ public class RedisConfig extends CachingConfigurerSupport{
     @Bean
     public CacheManager cacheManager(RedisTemplate redisTemplate){
         RedisCacheManager cacheManager = new RedisCacheManager(redisTemplate);
-        cacheManager.setDefaultExpiration(10);  //设置 key-value 超时时间
+        cacheManager.setDefaultExpiration(100);  //设置 key-value 超时时间 单位seconds，超时消失
         return cacheManager;
     }
 

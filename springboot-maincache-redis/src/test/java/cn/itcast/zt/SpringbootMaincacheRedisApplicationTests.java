@@ -7,6 +7,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cache.CacheManager;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
@@ -15,8 +17,8 @@ public class SpringbootMaincacheRedisApplicationTests {
 	@Autowired
 	private UserRepository userRepository;
 
-	/*@Autowired
-	private CacheManager cacheManager;*/
+	@Autowired(required = false)
+	private CacheManager cacheManager;
 
 	@Before
 	public void before() {
@@ -36,5 +38,16 @@ public class SpringbootMaincacheRedisApplicationTests {
 		userRepository.save(u1);
 		User u3 = userRepository.findByName("AAA");
 		System.out.println("第三次查询：" + u3.getAge());
+	}
+
+	@Autowired
+	private StringRedisTemplate stringRedisTemplate ;
+	@Test
+	public void testRedis() {
+		//保存字符串
+		stringRedisTemplate.opsForValue().set("aaa", "111");
+		//读取字符串
+		String aaa = stringRedisTemplate.opsForValue().get("aaa");
+		System.out.println(aaa);
 	}
 }

@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class SpringbootMybatisSimpleApplicationTests {
 
-	@Autowired
+	@Autowired(required = false)
 	private UserMapper userMapper ;
 
 	@Test
