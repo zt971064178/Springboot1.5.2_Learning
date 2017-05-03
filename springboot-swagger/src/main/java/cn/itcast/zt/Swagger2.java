@@ -33,7 +33,7 @@ public class Swagger2 {
                 .title("Spring Boot中使用Swagger2构建RESTful APIs")
                 .description("更多Spring Boot相关文章请关注：http://blog.didispace.com/")
                 .termsOfServiceUrl("http://blog.didispace.com/")
-                .contact(new Contact("zhangtian", "httt://127.0.0.1:8080/swagger-ui.html","zhang.tian20080808@163.com"))
+                .contact(new Contact("zhangtian", "http://127.0.0.1:8080/swagger-ui.html","zhang.tian20080808@163.com"))
                 .version("1.0")
                 .build() ;
     }
