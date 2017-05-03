@@ -3,6 +3,9 @@ package cn.itcast.zt.service;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+import java.util.Set;
+
 /**
  * 测试参数注入
  * Created by Administrator on 2017/4/8/008.
@@ -11,6 +14,12 @@ import org.springframework.stereotype.Component;
 public class BlogProperties {
     @Value("${com.didispace.blog.name}")
     private String name;
+
+    @Value("${com.didispace.list.book}")
+    private List<String> bookname ;
+    @Value("${com.didispace.set.play}")
+    private Set<String> play ;
+
     @Value("${com.didispace.blog.title}")
     private String title ;
     @Value("${com.didispace.blog.desc}")
@@ -33,6 +42,22 @@ public class BlogProperties {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<String> getBookname() {
+        return bookname;
+    }
+
+    public void setBookname(List<String> bookname) {
+        this.bookname = bookname;
+    }
+
+    public Set<String> getPlay() {
+        return play;
+    }
+
+    public void setPlay(Set<String> play) {
+        this.play = play;
     }
 
     public String getTitle() {

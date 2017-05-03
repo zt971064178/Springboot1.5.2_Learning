@@ -30,5 +30,7 @@ public class SpringbootPropertyApplicationTests {
 		log.info("随机long : " + blogProperties.getBigNumber());
 		log.info("随机10以下 : " + blogProperties.getTest1());
 		log.info("随机10-20 : " + blogProperties.getTest2());
+		System.out.println(blogProperties.getBookname());
+		System.out.println(blogProperties.getPlay());
 	}
 }
