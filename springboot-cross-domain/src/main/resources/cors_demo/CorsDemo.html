@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 部署时候把html独立部署到nginx中模拟前后台分离，只要是端口不一样就会产生跨域问题 -->
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+
+<body>
+
+<h3>部署时候把html独立部署到nginx中模拟前后台分离，只要是端口不一样就会产生跨域问题</h3>
+<div id="d1"></div>
+
+
+<script type="text/javascript">
+
+    $(function(){
+        $.ajax({
+            url:'http://localhost:8099/corsdemo/getData',
+            type:'POST',
+            headers: {
+                /*需要再头部添加Access-Control-Allow-Origin才会开启cors功能
+                 如果不添加Access-Control-Allow-Origin因为Access-Control-Allow-Origin有这个头信息这就是一个复杂请求，
+                 CORS会使用OPTIONS方法预检，则该ajax请求不会发出options请求
+                 cors原理流程，先向服务端发送OPTIONS请求从服务端返回的response中获取服务器端
+                 对应的cors的设置比如Access-Control-Allow-Origin，支持的方法就是CorsConfig中的设置
+                 然后才会发送真是的ajax请求，就是你代码中真是的请求
+                 步骤发送两次ajax请求，1次OPTIONS去判断当前的request中的headers内容是否满足cors中的设置，
+                 如果满足则继续发送下面代码的请求，不满足直接跨域出错
+                 2.满足第一次请求后在发送真实请求
+                 IE10以上版本才支持CORS
+                 CORS 是JSONP的升级版，新的浏览器建议使用CORS老的使用JSONP
+                 前台跨域post请求，由于CORS（cross origin resource share）规范的存在，浏览器会首先发送一次options嗅探，同时header带上origin，判断是否有跨域请求权限，服务器响应access control allow origin的值，供浏览器与origin匹配，如果匹配则正式发送post请求。
+                 如果有服务器程序权限，设置，比如jsp中，设置header access control allow origin等于*，就可以得到跨域访问的目的。*/
+                "Access-Control-Allow-Origin": "http://www.baidu.com",
+                "Authorization " : "Bearer fdajlkjl;jckvjsakldjfasjdkfl;j"
+            },
+            dataType:'json',
+            success:function(res){
+                console.log(res);
+                $("#d1").html(res.name);
+            }
+        })
+    })
+
+
+
+</script>
+
+
+</body>
+</html>
