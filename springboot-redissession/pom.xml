@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-redissession实现多账户</name>
+	<name>springboot-redissession</name>
 	<description>springboot使用redissession实现多账户</description>
 
 	<parent>

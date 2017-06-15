@@ -1,0 +1,15 @@
+[INFO ] 2017-06-09 14:21:46,102 cn.itcast.zt.SpringbootBlacklistApplication - Starting SpringbootBlacklistApplication on DESKTOP-JF9M0VD with PID 103660 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-blacklist\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-06-09 14:21:46,109 cn.itcast.zt.SpringbootBlacklistApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-06-09 14:21:46,109 cn.itcast.zt.SpringbootBlacklistApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-06-09 14:21:54,982 cn.itcast.zt.SpringbootBlacklistApplication - Started SpringbootBlacklistApplication in 10.402 seconds (JVM running for 15.312)
+[INFO ] 2017-06-09 15:31:05,478 cn.itcast.zt.SpringbootBlacklistApplication - Starting SpringbootBlacklistApplication on DESKTOP-JF9M0VD with PID 102532 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-blacklist\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-06-09 15:31:05,483 cn.itcast.zt.SpringbootBlacklistApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-06-09 15:31:05,483 cn.itcast.zt.SpringbootBlacklistApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-06-09 15:31:10,905 cn.itcast.zt.SpringbootBlacklistApplication - Started SpringbootBlacklistApplication in 5.798 seconds (JVM running for 10.351)
+[INFO ] 2017-06-09 15:32:37,799 cn.itcast.zt.SpringbootBlacklistApplication - Starting SpringbootBlacklistApplication on DESKTOP-JF9M0VD with PID 86336 (D:\ideaWorkspace\Springboot1.5.2_Learning\springboot-blacklist\target\classes started by zhangtian in D:\ideaWorkspace\Springboot1.5.2_Learning)
+[DEBUG] 2017-06-09 15:32:37,804 cn.itcast.zt.SpringbootBlacklistApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+[INFO ] 2017-06-09 15:32:37,804 cn.itcast.zt.SpringbootBlacklistApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-06-09 15:32:41,985 cn.itcast.zt.SpringbootBlacklistApplication - Started SpringbootBlacklistApplication in 4.787 seconds (JVM running for 8.057)
+[DEBUG] 2017-06-09 15:32:55,765 cn.itcast.zt.dao.BlackListDao.findByIP - ==>  Preparing: SELECT * FROM blacklist WHERE ip = ? 
+[DEBUG] 2017-06-09 15:32:55,864 cn.itcast.zt.dao.BlackListDao.findByIP - ==> Parameters: 127.0.0.1(String)
+[DEBUG] 2017-06-09 15:32:55,891 cn.itcast.zt.dao.BlackListDao.findByIP - <==      Total: 1
